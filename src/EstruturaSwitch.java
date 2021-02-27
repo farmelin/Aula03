@@ -12,9 +12,24 @@ public class EstruturaSwitch {
 		opcao = leitor.nextInt();
 	
 		//Aqui precisamos de uma estrutura para validar a opção inserida.
-
+		//A sintaxe do operador lógico switch é a mesma do "Case" do "MS SQL"
 		leitor.close();
 
+		switch(opcao) {
+		case 1:
+			System.out.println("Que profissional organizado você é! Incrível!");
+			break;
+		case 2:
+			System.out.println("A sua orelha esuqerda é bastante flexível!");
+			break;
+		case 3:
+			System.out.println("Você é muito sensível as necessidades dos seus gatos. Parabens!");
+			break;
+		default:
+			System.out.println("Opção inválida");
+		}
+		
+		
 	}
 
 }
